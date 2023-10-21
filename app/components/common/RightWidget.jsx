@@ -17,10 +17,10 @@ const RightWidget = () => {
                 </div>
             </div>
 
-            <section className="bg-gray-200 p-2 px-4 mt-4 rounded-lg">
-                <h3 className="font-bold text-lg mb-8">Trends for you</h3>
+            <section className="bg-gray-200 py-2 mt-4 rounded-lg">
+                <h3 className="font-bold text-lg mb-8 px-4">Trends for you</h3>
                 {/* Trends */}
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-2 w-full">
                     <Trend />
                     <Trend />
                     <Trend />
@@ -30,12 +30,12 @@ const RightWidget = () => {
                     <Trend />
                     <Trend />
                 </div>
-
+                <section className="mt-4">
+                    <h3>Who to follow</h3>
+                </section>
             </section>
 
-            <section>
-                <h3>Who to follow</h3>
-            </section>
+
 
             <div>
                 <ul>

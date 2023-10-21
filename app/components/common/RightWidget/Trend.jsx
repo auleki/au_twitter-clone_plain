@@ -1,6 +1,6 @@
 const Trend = () => {
     return (
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center hover:bg-gray-100 hover:cursor-pointer w-full px-4 py-4">
             <section>
                 <p className="text-gray-400 text-xs">Trend in Nigeria</p>
                 <h3 className="font-bold">Mermaid</h3>

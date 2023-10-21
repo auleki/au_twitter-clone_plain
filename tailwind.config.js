@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     colors: {
       gray: {
+        100: "rgb(249, 250, 251)",
         200: "rgb(239, 243, 244)",
         400: "rgb(83, 100, 113)"
       },
